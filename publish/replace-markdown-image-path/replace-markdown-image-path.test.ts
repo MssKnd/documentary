@@ -1,4 +1,4 @@
-import { assertEquals } from "https://deno.land/std@0.183.0/testing/asserts.ts";
+import { assertEquals } from "https://deno.land/std@0.224.0/testing/asserts.ts";
 import { replaceMarkdownImagePath } from "./mod.ts";
 
 Deno.test("replaceMarkdownImagePath", async (t) => {
